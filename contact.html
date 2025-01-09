@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Sekolah Al Irsyad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact">
+        <h2>Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau ingin mendaftar, silakan hubungi kami melalui informasi berikut:</p>
+
+        <ul>
+            <li>Alamat: Jl. Pendidikan No. 123, Jakarta, Indonesia</li>
+            <li>Telepon: (021) 12345678</li>
+            <li>Email: info@sekolahalirsyad.com</li>
+        </ul>
+
+        <h3>Formulir Kontak</h3>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sekolah Al Irsyad. Semua hak dilindungi.</p>
+    </footer>
+
+    
+</body>
+</html>
